@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Premium Coaching Theme Colors (Dark Blue, White, Golden/Yellow) */
+  --color-brand-blue-dark: #0f172a;    /* slate-900 / dark-blue */
+  --color-brand-blue-medium: #1e293b;  /* slate-800 */
+  --color-brand-blue-accent: #3b82f6;  /* blue-500 */
+  --color-brand-gold: #f59e0b;         /* amber-500 / golden */
+  --color-brand-gold-light: #fef3c7;   /* amber-100 */
+  --color-brand-gold-dark: #b45309;    /* amber-700 */
+}
